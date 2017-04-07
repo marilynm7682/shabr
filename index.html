@@ -17,7 +17,8 @@
     <!--custom-->
     <link rel="stylesheet" href="custom.css">
     <link rel="stylesheet" href="nav.css">
-<script src="script.js"></script>
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Josefin+Slab" rel="stylesheet">
 </head>
 <style type="text/css">
     .carousel {
@@ -28,35 +29,51 @@
         margin: 0 auto;
     }
     
-
-
-
+    .footer {
+        font-family: Josefin Slab;
+        
+    }
+    
+    #landing {
+        display: table;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background: url('img/balloon-6.jpg') no-repeat center;
+        background-size: cover;
+    }
 </style>
 </head>
 
 <body>
+    <header id="landing">
+    <div class="text-vertical-center">
+      <h1>Skydance Hot Air Balloon Rides</h1>
+      <h2>Ride With the Wind. Dance With the Sky.</h2>
+    </div>
+  </header>
     <div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
-    <div class="container-fluid">
-        <div class="navbar-header"><a class="navbar-brand" href="#">Shabr</a>
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+        <div class="container-fluid">
+            <div class="navbar-header"><a class="navbar-brand" href="#">Shabr</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
             </button>
-        </div>
-        <div class="collapse navbar-collapse navbar-menubuilder">
-            <ul class="nav navbar-nav navbar-left">
-                <li><a href="/">Home</a>
-                </li>
-                <li><a href="/products">Info</a>
-                </li>
-                <li><a href="/about-us">Gallery</a>
-                </li>
-                <li><a href="/contact">Testimonials</a>
-                </li>
-                <li><a href="/contact">Contact</a>
-                </li>
-            </ul>
+            </div>
+            <div class="collapse navbar-collapse navbar-menubuilder">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="/">Home</a>
+                    </li>
+                    <li><a href="/products">Info</a>
+                    </li>
+                    <li><a href="/about-us">Gallery</a>
+                    </li>
+                    <li><a href="/contact">Testimonials</a>
+                    </li>
+                    <li><a href="/contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
-</div>
 
     <div class="Picture-Gallery">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -83,6 +100,9 @@
                 <span class="glyphicon glyphicon-chevron-right"></span>
             </a>
         </div>
+    </div>
+     <div class="footer text-center">
+        <h3>Copyright &copy; 2016 &nbsp; | &nbsp; <strong>SHABR</strong></h3>
     </div>
 
 </body>
