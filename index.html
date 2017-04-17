@@ -31,66 +31,69 @@
     
     .footer {
         font-family: Josefin Slab;
-        
     }
     
     #landing {
         display: table;
-        width:100%;
-        height:100%;
+        width: 100%;
+        height: 100%;
         background-size: cover;
         background: url('img/balloon-6.jpg') no-repeat center;
         background-size: cover;
     }
-    h1{
-    font-family: Dancing Script;
-    color:blue;
-    text-align:center
+    
+    h1 {
+        font-family: Dancing Script;
+        text-align: center
+    }
+    
+    h2 {
+        font-family: Josefin slab;
+        text-align: center;
+
+    }
+    
+    
+    @media(min-width:768px) {
+        h1 {
+            font-size: 50px;
+        }
+        h2 {
+            font-size: 45px;
 }
-h2{
-    font-family:Josefin slab;
-    text-align:center;
-    color:blue;
-   
-}
-@media(min-width:768px){
-    h1{
-        font-size:50;
     }
-    h2{
-        font-size:45;
+    
+    @media(min-width:992px) {
+        h1 {
+            font-size: 60px;
+        }
+        h2 {
+            font-size: 65px;
+        }
     }
-}
-@media(min-width:992px){
-    h1{
-        font-size:60px;
+    
+    @media(min-width:1200px) {
+        h1{
+            font-size: 70px;
+        }
+        h2 {
+            font-size: 65px;
+        }
     }
-    h2{
-        font-size:65;
-    }
-}
-@media(min-width:1200px){
-    h1{
-        font-size:70px;
-    }
-    h2{
-        font-size:65px;
-    }
-}
 </style>
 </head>
 
 <body>
     <div id="landing">
-    <div class="text-vertical-center">
-      <h1>Skydance <br>Hot Air Balloon <br>Rides</h1>
-      <br>
-      <br>
-      <br>
-      <br>
-      <h2>Ride With the Wind. Dance With the Sky</h2>
+        <div class="text-vertical-center">
+            <h1 style="color:blue;">Skydance <br>Hot Air Balloon <br>Rides</h1>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 style="color:blue;">Ride With the Wind. Dance With the Sky</h2>
+        </div>
     </div>
-  </div>
     <div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
         <div class="container-fluid">
             <div class="navbar-header"><a class="navbar-brand" href="#">Shabr</a>
@@ -99,53 +102,63 @@ h2{
             </div>
             <div class="collapse navbar-collapse navbar-menubuilder">
                 <ul class="nav navbar-nav navbar-left">
-                    <li class ="home"><a id="Home" href="/">Home</a>
+                    <li><a href="#home">Home</a>
                     </li>
-                    <li class ="products"><a id="products" href="/products">Info</a>
+                    <li><a href="#info">Info</a>
                     </li>
-                    <li class ="about-us"><a id="about-us" href="/about-us">Gallery</a>
-                     </li>
-                    <li class ="testimonials"><a id="testimonials" href="/testimonials">Testimonials</a>
+                    <li><a href="#gallery">Gallery</a>
                     </li>
-                    <li class ="contact"><a id="contact" href="/contact">Contact</a>
+                    <li><a href="#testimonials">Testimonials</a>
                     </li>
-                </ul>yhjjzrv
+                    <li><a href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
-<div class="container">
-  <div class="jumbotron">
-    <h1 class= "display-1">Welcome to Skydance Hot Air Balloon 
-Rides</h1>      
-  </div>
-</div>
-    <div class="Picture-Gallery">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img src="img/balloon-1.jpg" alt="Intro picture">
-                </div>
-                <div class="item">
-                    <img src="img/balloon-2.jpg" alt="gallery picture">
-                </div>
-                <div class="item">
-                    <img src="img/balloon-3.jpg" alt="gallery picture">
+    <div class="navbar-container">
+        <div id="home">
+            <div class="container">
+                <div class="jumbotron">
+                    <h1 class="display-1">Welcome to Skydance Hot Air Balloon Rides
+                    </h1>
                 </div>
             </div>
-            <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-            </a>
-            <a class="carousel-control right" href="#myCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-            </a>
+            <h2 class ="display-1">Fun for Everyone</h2>
+            <h2 class ="display-1">Come make a new memory with us<br> There's nothing else like it<br> Fun for both adults and kids <br> All are welcome! <br> Afraid of heights? <br> You won't be after you <br> slow-dance with the sky.
+            </h2>
+            <div class="Picture-Gallery">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="img/balloon-1.jpg" alt="Intro picture">
+                        </div>
+                        <div class="item">
+                            <img src="img/balloon-2.jpg" alt="gallery picture">
+                        </div>
+                        <div class="item">
+                            <img src="img/balloon-3.jpg" alt="gallery picture">
+                        </div>
+                    </div>
+                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="info">
+            <h3>hello</h3>
         </div>
     </div>
-     <div class="footer text-center">
+    <div class="footer text-center">
         <h3>Copyright &copy; 2016 &nbsp; | &nbsp; <strong>SHABR</strong></h3>
     </div>
 
